@@ -1,0 +1,886 @@
+{('VERB', 'request'),}, function-tradeoff, 7, 0.875
+{('VERB', 'debug'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'statistic'),('ADP', 'about'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'statistic'),('ADP', 'about'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'statistic'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('VERB', 'use'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('NOUN', 'default'),('ADP', 'at'),}, limited-side-effect, 8, 0.889
+{('CCONJ', 'and'),('CCONJ', 'and'),('ADJ', 'high'),}, limited-side-effect, 6, 0.857
+{('CCONJ', 'and'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 8, 0.889
+{('CCONJ', 'and'),('ADP', 'of'),('ADP', 'to'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 12, 0.857
+{('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'and'),('VERB', 'be'),('ADP', 'by'),}, function-tradeoff, 9, 0.900
+{('CCONJ', 'and'),('NOUN', 'type'),}, function-tradeoff, 11, 0.917
+{('CCONJ', 'and'),('NOUN', 'function'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('NOUN', 'function'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'and'),('ADP', 'for'),('ADP', 'of'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('ADP', 'for'),('CCONJ', 'or'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('PROPN', 'c++'),}, function-tradeoff, 13, 0.929
+{('CCONJ', 'and'),('NOUN', 'warning'),('VERB', 'enable'),}, function-tradeoff, 15, 0.938
+{('CCONJ', 'and'),('NOUN', 'warning'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('NOUN', 'warning'),}, function-tradeoff, 27, 0.931
+{('CCONJ', 'and'),('CCONJ', 'or'),('NOUN', 'default'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('CCONJ', 'or'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'and'),('ADV', 'when'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'and'),('CCONJ', 'either'),}, function-tradeoff, 6, 0.857
+{('VERB', 'use'),('VERB', 'set'),('NUM', 'NUM'),}, function-tradeoff, 7, 0.875
+{('VERB', 'use'),('VERB', 'set'),('NOUN', 'optimization'),}, function-tradeoff, 6, 0.857
+{('VERB', 'use'),('NUM', 'NUM'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('VERB', 'use'),('ADP', 'to'),('ADP', 'for'),}, function-tradeoff, 9, 0.900
+{('VERB', 'use'),('NOUN', 'attribute'),}, function-tradeoff, 7, 0.875
+{('VERB', 'use'),('NOUN', 'warning'),}, function-tradeoff, 22, 0.957
+{('NOUN', 'level'),('NOUN', 'default'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'level'),('NOUN', 'level'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'level'),('ADP', 'for'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'level'),('ADP', 'for'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'level'),('ADP', 'of'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('VERB', 'set'),('NOUN', 'response'),}, workload-specific, 8, 0.889
+{('VERB', 'set'),('VERB', 'set'),('NOUN', 'level'),}, function-tradeoff, 7, 0.875
+{('VERB', 'set'),('NOUN', 'string'),}, function-tradeoff, 6, 0.857
+{('VERB', 'set'),('NOUN', 'parameter'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('VERB', 'set'),('VERB', 'log'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'default'),('NOUN', 'level'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'default'),('ADP', 'at'),('VERB', 'enable'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'default'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 21, 0.913
+{('NOUN', 'default'),('NOUN', 'use'),('CCONJ', 'and'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'default'),('NOUN', 'use'),}, limited-side-effect, 11, 0.917
+{('NOUN', 'default'),('CCONJ', 'and'),('ADJ', 'high'),}, limited-side-effect, 16, 0.889
+{('NOUN', 'default'),('NOUN', 'warning'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('NUM', 'NUM'),('ADP', 'of'),('ADP', 'of'),('VERB', 'be'),}, function-tradeoff, 6, 0.857
+{('NUM', 'NUM'),('ADP', 'of'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('NUM', 'NUM'),('CCONJ', 'and'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NUM', 'NUM'),('CCONJ', 'or'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NUM', 'NUM'),('NUM', 'NUM'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('VERB', 'log'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('VERB', 'log'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('VERB', 'log'),('ADP', 'for'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('VERB', 'log'),('ADP', 'on'),}, function-tradeoff, 8, 0.889
+{('VERB', 'log'),('VERB', 'set'),}, function-tradeoff, 8, 0.889
+{('VERB', 'log'),('CCONJ', 'or'),}, function-tradeoff, 10, 0.909
+{('VERB', 'log'),('NOUN', 'parameter'),}, function-tradeoff, 16, 0.941
+{('VERB', 'log'),('ADV', 'only'),}, function-tradeoff, 14, 0.933
+{('ADP', 'on'),('NOUN', 'loop'),('CCONJ', 'and'),}, limited-side-effect, 6, 0.857
+{('ADP', 'on'),('ADP', 'in'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 8, 0.889
+{('ADP', 'on'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('CCONJ', 'and'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('NOUN', 'flag'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('ADP', 'on'),('NOUN', 'flag'),}, limited-side-effect, 8, 0.889
+{('ADP', 'on'),('VERB', 'enable'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('ADP', 'on'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 15, 0.882
+{('ADP', 'on'),('NOUN', 'default'),('CCONJ', 'and'),}, limited-side-effect, 14, 0.875
+{('ADP', 'on'),('NOUN', 'default'),('ADJ', 'high'),}, limited-side-effect, 12, 0.857
+{('ADP', 'on'),('ADP', 'to'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('ADP', 'on'),('ADP', 'to'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 10, 0.909
+{('ADP', 'on'),('NOUN', 'parameter'),('NUM', 'NUM'),}, function-tradeoff, 7, 0.875
+{('ADP', 'on'),('CCONJ', 'or'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('CCONJ', 'or'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'on'),('CCONJ', 'or'),('ADP', 'in'),}, function-tradeoff, 8, 0.889
+{('ADP', 'on'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 7, 0.875
+{('ADP', 'on'),('CCONJ', 'or'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADP', 'on'),('VERB', 'set'),('NOUN', 'parameter'),}, function-tradeoff, 10, 0.909
+{('ADP', 'on'),('VERB', 'set'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('ADP', 'on'),('VERB', 'set'),('VERB', 'set'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'on'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADP', 'on'),('NOUN', 'function'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'loop'),('ADP', 'in'),('NOUN', 'loop'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'loop'),('ADP', 'in'),}, limited-side-effect, 12, 0.923
+{('NOUN', 'loop'),('NOUN', 'loop'),('CCONJ', 'and'),}, limited-side-effect, 9, 0.900
+{('NOUN', 'loop'),('CCONJ', 'and'),('NOUN', 'loop'),}, limited-side-effect, 8, 0.889
+{('NOUN', 'loop'),('VERB', 'enable'),('ADP', 'by'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'loop'),('VERB', 'enable'),('ADP', 'at'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'loop'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'loop'),('VERB', 'enable'),}, limited-side-effect, 13, 0.929
+{('NOUN', 'loop'),('NOUN', 'amount'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'loop'),('ADP', 'to'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'loop'),('ADP', 'for'),}, limited-side-effect, 11, 0.917
+{('NOUN', 'loop'),('NOUN', 'iteration'),}, limited-side-effect, 7, 0.875
+{('ADP', 'in'),('ADP', 'by'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('CCONJ', 'and'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('CCONJ', 'and'),('VERB', 'use'),}, function-tradeoff, 11, 0.917
+{('ADP', 'in'),('CCONJ', 'and'),('NOUN', 'warning'),}, function-tradeoff, 10, 0.909
+{('ADP', 'in'),('NOUN', 'default'),('ADP', 'at'),}, limited-side-effect, 6, 0.857
+{('ADP', 'in'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('ADP', 'of'),('ADP', 'of'),('NOUN', 'function'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'parameter'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('NOUN', 'parameter'),('NOUN', 'warning'),}, function-tradeoff, 8, 0.889
+{('ADP', 'in'),('NOUN', 'function'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'function'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('SCONJ', 'if'),('NOUN', 'warning'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('VERB', 'use'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('ADP', 'in'),('CCONJ', 'and'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('ADP', 'in'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('ADP', 'in'),('NOUN', 'warning'),}, function-tradeoff, 17, 0.944
+{('ADP', 'in'),('PROPN', 'c++'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('PROPN', 'c++'),}, function-tradeoff, 17, 0.895
+{('ADP', 'in'),('PROPN', 'c++'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('PROPN', 'c++'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('ADP', 'for'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('CCONJ', 'or'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'threshold'),}, workload-specific, 6, 0.857
+{('ADP', 'in'),('NOUN', 'type'),('NOUN', 'type'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'type'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 10, 0.909
+{('ADP', 'in'),('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'type'),}, function-tradeoff, 13, 0.929
+{('ADP', 'in'),('NOUN', 'gcc'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('NOUN', 'warning'),}, function-tradeoff, 34, 0.971
+{('ADP', 'in'),('NOUN', 'warning'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('NOUN', 'warning'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('NOUN', 'warning'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'warning'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'warning'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADP', 'in'),('NOUN', 'class'),}, function-tradeoff, 9, 0.900
+{('ADP', 'in'),('NOUN', 'instance'),}, function-tradeoff, 6, 0.857
+{('ADP', 'in'),('ADJ', 'iso'),}, function-tradeoff, 8, 0.889
+{('ADP', 'in'),('NOUN', 'standard'),}, function-tradeoff, 6, 0.857
+{('ADP', 'by'),('CCONJ', 'and'),('ADJ', 'high'),}, limited-side-effect, 16, 0.889
+{('ADP', 'by'),('NOUN', 'default'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'by'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 21, 0.913
+{('ADP', 'by'),('ADP', 'in'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'by'),('NOUN', 'warning'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'by'),('NOUN', 'warning'),}, function-tradeoff, 18, 0.947
+{('NOUN', 'flag'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 12, 0.923
+{('NOUN', 'flag'),('ADP', 'by'),('CCONJ', 'and'),}, limited-side-effect, 10, 0.909
+{('NOUN', 'flag'),('ADP', 'by'),}, limited-side-effect, 11, 0.917
+{('NOUN', 'flag'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 10, 0.909
+{('NOUN', 'flag'),('ADP', 'at'),}, limited-side-effect, 11, 0.917
+{('NOUN', 'flag'),('ADJ', 'high'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 22, 0.880
+{('VERB', 'enable'),('VERB', 'enable'),('NOUN', 'use'),}, limited-side-effect, 9, 0.900
+{('VERB', 'enable'),('VERB', 'enable'),('ADJ', 'high'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('NOUN', 'use'),}, limited-side-effect, 13, 0.867
+{('VERB', 'enable'),('CCONJ', 'and'),('NOUN', 'optimization'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('CCONJ', 'and'),('ADJ', 'high'),}, limited-side-effect, 17, 0.895
+{('VERB', 'enable'),('VERB', 'use'),('NOUN', 'use'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('NOUN', 'loop'),}, limited-side-effect, 13, 0.929
+{('VERB', 'enable'),('NOUN', 'optimization'),('CCONJ', 'and'),}, limited-side-effect, 13, 0.867
+{('VERB', 'enable'),('NOUN', 'optimization'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('ADP', 'for'),('ADP', 'of'),('ADP', 'by'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('ADP', 'for'),('ADP', 'by'),}, limited-side-effect, 7, 0.875
+{('VERB', 'enable'),('ADP', 'of'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 9, 0.900
+{('VERB', 'enable'),('ADP', 'of'),('VERB', 'enable'),('VERB', 'enable'),}, limited-side-effect, 8, 0.889
+{('VERB', 'enable'),('ADP', 'of'),('NOUN', 'default'),}, limited-side-effect, 9, 0.900
+{('VERB', 'enable'),('ADP', 'of'),('NOUN', 'use'),}, limited-side-effect, 7, 0.875
+{('VERB', 'enable'),('ADP', 'of'),('ADP', 'to'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('VERB', 'enable'),('ADP', 'to'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('VERB', 'enable'),('ADP', 'in'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('VERB', 'enable'),('NOUN', 'warning'),}, function-tradeoff, 17, 0.944
+{('VERB', 'enable'),('CCONJ', 'either'),}, function-tradeoff, 6, 0.857
+{('ADP', 'at'),('CCONJ', 'and'),('ADJ', 'high'),}, limited-side-effect, 17, 0.895
+{('NOUN', 'use'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'amount'),('NOUN', 'address'),('SCONJ', 'if'),}, workload-specific, 7, 0.875
+{('NOUN', 'amount'),('NOUN', 'value'),('NOUN', 'value'),}, workload-specific, 7, 0.875
+{('NOUN', 'amount'),('NOUN', 'value'),('NUM', 'NUM'),}, workload-specific, 6, 0.857
+{('NOUN', 'amount'),('VERB', 'use'),('ADP', 'of'),}, workload-specific, 8, 0.889
+{('NOUN', 'amount'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'amount'),('NOUN', 'request'),}, workload-specific, 6, 0.857
+{('ADP', 'of'),('ADP', 'of'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 8, 0.889
+{('ADP', 'of'),('ADP', 'of'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'of'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'of'),('VERB', 'be'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('ADP', 'of'),('NOUN', 'pointer'),}, function-tradeoff, 10, 0.909
+{('ADP', 'of'),('ADP', 'of'),('NOUN', 'array'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 8, 0.889
+{('ADP', 'of'),('CCONJ', 'and'),('CCONJ', 'or'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('CCONJ', 'and'),('NOUN', 'type'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('ADJ', 'big'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'to'),('ADP', 'of'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'to'),('NOUN', 'parameter'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'to'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'in'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'attribute'),}, function-tradeoff, 9, 0.900
+{('ADP', 'of'),('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('NOUN', 'function'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 13, 0.867
+{('ADP', 'of'),('NUM', 'NUM'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NUM', 'NUM'),('ADV', 'when'),}, function-tradeoff, 8, 0.889
+{('ADP', 'of'),('NOUN', 'parameter'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('ADJ', 'such'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('ADP', 'for'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'for'),('CCONJ', 'or'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'for'),('SCONJ', 'because'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('PROPN', 'c++'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('PROPN', 'c++'),}, function-tradeoff, 14, 0.875
+{('ADP', 'of'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 14, 0.933
+{('ADP', 'of'),('NOUN', 'type'),('CCONJ', 'or'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'type'),('CCONJ', 'or'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'type'),}, function-tradeoff, 29, 0.967
+{('ADP', 'of'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 15, 0.938
+{('ADP', 'of'),('NOUN', 'type'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 8, 0.889
+{('ADP', 'of'),('NOUN', 'type'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 13, 0.929
+{('ADP', 'of'),('CCONJ', 'or'),('ADV', 'when'),}, function-tradeoff, 12, 0.857
+{('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'default'),}, function-tradeoff, 9, 0.900
+{('ADP', 'of'),('CCONJ', 'or'),('ADP', 'to'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'parameter'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('CCONJ', 'or'),('ADP', 'for'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('CCONJ', 'or'),('ADP', 'of'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('CCONJ', 'or'),('VERB', 'enable'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('NOUN', 'class'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'class'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('NOUN', 'default'),('NOUN', 'use'),}, limited-side-effect, 8, 0.889
+{('ADP', 'of'),('NOUN', 'target'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'example'),('SCONJ', 'because'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('VERB', 'set'),('NOUN', 'parameter'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('VERB', 'set'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADP', 'as'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADJ', 'non'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('ADJ', 'variable'),}, function-tradeoff, 7, 0.875
+{('ADP', 'of'),('NOUN', 'array'),}, function-tradeoff, 12, 0.857
+{('ADP', 'of'),('CCONJ', 'either'),}, function-tradeoff, 6, 0.857
+{('ADP', 'of'),('NOUN', 'argument'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'resource'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('SCONJ', 'than'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'than'),('VERB', 'enable'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'than'),('NOUN', 'parameter'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('VERB', 'run'),('ADP', 'of'),('ADP', 'by'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('VERB', 'run'),('ADP', 'of'),('VERB', 'enable'),}, limited-side-effect, 12, 0.857
+{('VERB', 'run'),('ADP', 'of'),('VERB', 'enable'),('ADP', 'by'),}, limited-side-effect, 8, 0.889
+{('VERB', 'run'),('ADP', 'of'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 8, 0.889
+{('VERB', 'run'),('ADP', 'by'),}, limited-side-effect, 23, 0.852
+{('VERB', 'run'),('ADP', 'by'),('ADP', 'at'),}, limited-side-effect, 18, 0.947
+{('VERB', 'run'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 9, 0.900
+{('VERB', 'run'),('ADP', 'by'),('CCONJ', 'and'),}, limited-side-effect, 19, 0.950
+{('VERB', 'run'),('NOUN', 'code'),}, limited-side-effect, 10, 0.909
+{('VERB', 'run'),('VERB', 'enable'),}, limited-side-effect, 25, 0.893
+{('VERB', 'run'),('VERB', 'enable'),('ADP', 'by'),}, limited-side-effect, 18, 0.947
+{('VERB', 'run'),('VERB', 'enable'),('ADP', 'at'),}, limited-side-effect, 18, 0.947
+{('VERB', 'run'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 19, 0.950
+{('VERB', 'run'),('CCONJ', 'and'),('CCONJ', 'and'),}, limited-side-effect, 8, 0.889
+{('VERB', 'run'),('ADP', 'on'),('VERB', 'enable'),}, limited-side-effect, 16, 0.941
+{('VERB', 'run'),('ADP', 'on'),('ADP', 'by'),}, limited-side-effect, 12, 0.857
+{('VERB', 'run'),('ADP', 'on'),('ADP', 'at'),}, limited-side-effect, 12, 0.857
+{('VERB', 'run'),('NOUN', 'value'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('VERB', 'run'),('ADP', 'at'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('ADP', 'to'),('ADP', 'of'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADP', 'of'),('ADP', 'of'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('ADP', 'of'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('ADP', 'of'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADP', 'of'),('NOUN', 'type'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('ADP', 'of'),('ADP', 'with'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('ADP', 'of'),('ADP', 'on'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('ADP', 'of'),('NOUN', 'call'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADP', 'in'),('ADP', 'of'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('ADP', 'for'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADP', 'for'),('NOUN', 'example'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('CCONJ', 'and'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('CCONJ', 'and'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('NOUN', 'type'),}, function-tradeoff, 19, 0.950
+{('ADP', 'to'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('CCONJ', 'or'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('VERB', 'be'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADJ', 'such'),}, function-tradeoff, 11, 0.917
+{('ADP', 'to'),('ADP', 'with'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('ADP', 'of'),('NOUN', 'function'),}, function-tradeoff, 9, 0.900
+{('ADP', 'to'),('NOUN', 'function'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('ADP', 'on'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('VERB', 'be'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'function'),('ADJ', 'such'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'function'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'function'),('NOUN', 'type'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'parameter'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('NOUN', 'parameter'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('ADV', 'only'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'target'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'string'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('ADJ', 'non'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('VERB', 'log'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'statistic'),}, function-tradeoff, 7, 0.875
+{('ADP', 'to'),('NOUN', 'level'),}, function-tradeoff, 8, 0.889
+{('ADP', 'to'),('ADV', 'also'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADP', 'to'),('NOUN', 'example'),}, function-tradeoff, 9, 0.900
+{('ADP', 'to'),('NOUN', 'pointer'),}, function-tradeoff, 10, 0.909
+{('ADP', 'to'),('NOUN', 'object'),}, function-tradeoff, 7, 0.875
+{('VERB', 'optimize'),('NOUN', 'address'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'call'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'call'),('NOUN', 'function'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'call'),('ADP', 'to'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'call'),('ADP', 'to'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'call'),('ADP', 'to'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'call'),('CCONJ', 'and'),('NOUN', 'call'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'call'),('ADJ', 'such'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'call'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'statement'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'address'),('NOUN', 'amount'),('NUM', 'NUM'),}, workload-specific, 6, 0.857
+{('NOUN', 'address'),('VERB', 'use'),('SCONJ', 'if'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'address'),('ADP', 'on'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'to'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'to'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('ADV', 'when'),('ADP', 'of'),('ADJ', 'same'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('ADP', 'of'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'about'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 9, 0.900
+{('ADV', 'when'),('ADP', 'for'),('NOUN', 'example'),}, function-tradeoff, 12, 0.857
+{('ADV', 'when'),('CCONJ', 'and'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 13, 0.867
+{('ADV', 'when'),('CCONJ', 'and'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('CCONJ', 'or'),('SCONJ', 'if'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 9, 0.900
+{('ADV', 'when'),('CCONJ', 'or'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('VERB', 'be'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('ADJ', 'same'),}, function-tradeoff, 11, 0.917
+{('ADV', 'when'),('ADP', 'in'),('NOUN', 'function'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'in'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 9, 0.900
+{('ADV', 'when'),('VERB', 'enable'),('NOUN', 'use'),}, limited-side-effect, 6, 0.857
+{('ADV', 'when'),('VERB', 'enable'),('ADP', 'at'),}, limited-side-effect, 8, 0.889
+{('ADV', 'when'),('VERB', 'enable'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 6, 0.857
+{('ADV', 'when'),('NOUN', 'parameter'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('ADP', 'by'),('ADP', 'in'),}, function-tradeoff, 9, 0.900
+{('ADV', 'when'),('ADP', 'by'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('NOUN', 'example'),}, function-tradeoff, 13, 0.867
+{('ADV', 'when'),('NOUN', 'object'),}, function-tradeoff, 8, 0.889
+{('ADV', 'when'),('ADJ', 'non'),}, function-tradeoff, 8, 0.889
+{('ADV', 'when'),('NOUN', 'function'),('NOUN', 'function'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('NOUN', 'function'),('CCONJ', 'and'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('NOUN', 'function'),('ADP', 'to'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('NOUN', 'function'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADV', 'when'),('NOUN', 'function'),('SCONJ', 'if'),}, function-tradeoff, 6, 0.857
+{('ADV', 'when'),('NOUN', 'loop'),}, limited-side-effect, 6, 0.857
+{('ADV', 'when'),('NOUN', 'argument'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('CCONJ', 'and'),('ADP', 'of'),}, function-tradeoff, 16, 0.941
+{('ADP', 'about'),('CCONJ', 'and'),}, function-tradeoff, 31, 0.969
+{('ADP', 'about'),('CCONJ', 'and'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('CCONJ', 'and'),('CCONJ', 'and'),}, function-tradeoff, 9, 0.900
+{('ADP', 'about'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 11, 0.917
+{('ADP', 'about'),('ADP', 'with'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('ADP', 'about'),('ADP', 'with'),}, function-tradeoff, 16, 0.941
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 23, 0.958
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 8, 0.889
+{('ADP', 'about'),('ADP', 'of'),}, function-tradeoff, 40, 0.976
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 10, 0.909
+{('ADP', 'about'),('ADP', 'of'),('CCONJ', 'and'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'of'),}, function-tradeoff, 10, 0.909
+{('ADP', 'about'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 19, 0.950
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 14, 0.933
+{('ADP', 'about'),('ADP', 'of'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),}, function-tradeoff, 80, 0.988
+{('ADP', 'about'),('NOUN', 'value'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'for'),('CCONJ', 'and'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('ADP', 'for'),('CCONJ', 'and'),}, function-tradeoff, 10, 0.909
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'for'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'to'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 12, 0.923
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 15, 0.938
+{('ADP', 'about'),('ADP', 'for'),}, function-tradeoff, 26, 0.963
+{('ADP', 'about'),('NOUN', 'amount'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('NOUN', 'amount'),}, function-tradeoff, 8, 0.889
+{('ADP', 'about'),('ADP', 'to'),('NOUN', 'amount'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'to'),('ADP', 'of'),}, function-tradeoff, 13, 0.929
+{('ADP', 'about'),('ADP', 'to'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('ADP', 'about'),('ADP', 'to'),('CCONJ', 'and'),}, function-tradeoff, 8, 0.889
+{('ADP', 'about'),('ADP', 'to'),}, function-tradeoff, 23, 0.958
+{('ADP', 'about'),('NUM', 'NUM'),}, function-tradeoff, 12, 0.923
+{('NOUN', 'attribute'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'attribute'),('ADP', 'of'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'attribute'),('NOUN', 'function'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'attribute'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('VERB', 'be'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('NOUN', 'function'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('ADP', 'for'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('ADJ', 'same'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('ADP', 'in'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('NUM', 'NUM'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('ADP', 'by'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('ADP', 'by'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('VERB', 'be'),('CCONJ', 'or'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('ADP', 'with'),('NOUN', 'type'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'with'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 11, 0.917
+{('ADP', 'with'),('NOUN', 'type'),}, function-tradeoff, 14, 0.933
+{('ADP', 'with'),('NOUN', 'type'),('NOUN', 'type'),}, function-tradeoff, 9, 0.900
+{('ADP', 'with'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('ADP', 'with'),('NOUN', 'type'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('ADP', 'with'),('NOUN', 'type'),('ADP', 'in'),}, function-tradeoff, 8, 0.889
+{('ADP', 'with'),('NOUN', 'attribute'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADP', 'with'),('NOUN', 'attribute'),}, function-tradeoff, 9, 0.900
+{('ADP', 'with'),('CCONJ', 'or'),('ADP', 'with'),}, function-tradeoff, 9, 0.900
+{('ADP', 'with'),('VERB', 'return'),}, function-tradeoff, 6, 0.857
+{('ADP', 'with'),('ADP', 'in'),('ADP', 'with'),}, function-tradeoff, 7, 0.875
+{('ADP', 'with'),('ADP', 'in'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'with'),('SCONJ', 'than'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 20, 0.952
+{('NOUN', 'type'),('ADP', 'of'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'of'),('NOUN', 'function'),}, function-tradeoff, 13, 0.929
+{('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 33, 0.868
+{('NOUN', 'type'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 13, 0.867
+{('NOUN', 'type'),('ADP', 'of'),('CCONJ', 'or'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'type'),('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('ADP', 'of'),('NOUN', 'default'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'type'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 15, 0.938
+{('NOUN', 'type'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 14, 0.875
+{('NOUN', 'type'),('ADP', 'of'),('ADP', 'for'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'type'),('ADP', 'of'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('NOUN', 'function'),}, function-tradeoff, 19, 0.950
+{('NOUN', 'type'),}, function-tradeoff, 57, 0.905
+{('NOUN', 'type'),('ADP', 'for'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'for'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'for'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('ADP', 'for'),('CCONJ', 'or'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'for'),('SCONJ', 'if'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'for'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'type'),('ADP', 'for'),}, function-tradeoff, 20, 0.870
+{('NOUN', 'type'),('ADP', 'for'),('ADP', 'by'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'for'),('NOUN', 'parameter'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'for'),('NOUN', 'example'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('VERB', 'use'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'type'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'type'),('NOUN', 'type'),}, function-tradeoff, 25, 0.962
+{('NOUN', 'type'),('NOUN', 'type'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('NOUN', 'type'),('ADP', 'in'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'type'),('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 23, 0.885
+{('NOUN', 'type'),('CCONJ', 'or'),('ADP', 'of'),}, function-tradeoff, 12, 0.857
+{('NOUN', 'type'),('NOUN', 'default'),}, function-tradeoff, 12, 0.923
+{('NOUN', 'type'),('SCONJ', 'if'),}, function-tradeoff, 15, 0.938
+{('NOUN', 'type'),('NOUN', 'amount'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('NOUN', 'amount'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('CCONJ', 'and'),}, function-tradeoff, 25, 0.962
+{('NOUN', 'type'),('CCONJ', 'and'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'type'),('VERB', 'set'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 21, 0.913
+{('NOUN', 'type'),('ADP', 'by'),}, function-tradeoff, 27, 0.964
+{('NOUN', 'type'),('NOUN', 'value'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADV', 'also'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'type'),('ADP', 'with'),('NOUN', 'type'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'with'),('ADP', 'in'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'type'),('ADP', 'with'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'with'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'type'),('NOUN', 'example'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'type'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'in'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'type'),('ADP', 'in'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'type'),('ADP', 'in'),}, function-tradeoff, 22, 0.957
+{('VERB', 'declare'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('VERB', 'declare'),('NOUN', 'warning'),}, function-tradeoff, 11, 0.917
+{('VERB', 'declare'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('VERB', 'declare'),('ADP', 'with'),}, function-tradeoff, 7, 0.875
+{('VERB', 'declare'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('VERB', 'declare'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('NOUN', 'object'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'function'),('CCONJ', 'and'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'function'),('NOUN', 'type'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADP', 'of'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'of'),('ADP', 'for'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'of'),('NOUN', 'parameter'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'of'),('CCONJ', 'or'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'of'),('ADP', 'of'),('VERB', 'enable'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'function'),('ADP', 'of'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'of'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'of'),('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'of'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'function'),('ADP', 'of'),('NOUN', 'type'),}, function-tradeoff, 13, 0.929
+{('NOUN', 'function'),('ADP', 'of'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'in'),('ADP', 'in'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'in'),('ADP', 'in'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'function'),('ADP', 'in'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'function'),('ADP', 'in'),('NOUN', 'function'),('NOUN', 'function'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'function'),('ADP', 'in'),('NOUN', 'function'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('NOUN', 'function'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'in'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 15, 0.882
+{('NOUN', 'function'),('ADP', 'in'),('NOUN', 'parameter'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'in'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('PROPN', 'c++'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'to'),}, function-tradeoff, 16, 0.889
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'to'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'to'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'to'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'and'),('VERB', 'use'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'function'),('ADP', 'for'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'to'),}, function-tradeoff, 12, 0.857
+{('NOUN', 'function'),('ADP', 'for'),('ADP', 'to'),('NOUN', 'function'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'for'),('VERB', 'set'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'by'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'function'),('NOUN', 'parameter'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('VERB', 'include'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 16, 0.941
+{('NOUN', 'function'),('NOUN', 'type'),('ADP', 'of'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('NOUN', 'type'),}, function-tradeoff, 20, 0.952
+{('NOUN', 'function'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('NOUN', 'type'),('CCONJ', 'or'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'type'),('NOUN', 'parameter'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'to'),('ADP', 'to'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('VERB', 'set'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADV', 'only'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADV', 'only'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADV', 'only'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADV', 'only'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADV', 'only'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADV', 'only'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('VERB', 'be'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('VERB', 'be'),('ADV', 'only'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('NOUN', 'parameter'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'by'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('CCONJ', 'or'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('CCONJ', 'or'),}, function-tradeoff, 13, 0.867
+{('NOUN', 'function'),('CCONJ', 'or'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'of'),('ADP', 'by'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'of'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'or'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'array'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'either'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'attribute'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('NOUN', 'attribute'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'as'),('VERB', 'be'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADJ', 'non'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADP', 'with'),('NOUN', 'function'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('NOUN', 'attribute'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('ADP', 'in'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('ADP', 'with'),('ADP', 'with'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'with'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'argument'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'argument'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'function'),('CCONJ', 'but'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('CCONJ', 'but'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('NOUN', 'error'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'function'),('ADJ', 'such'),('ADP', 'as'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'function'),('ADJ', 'such'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'function'),('ADP', 'without'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('NOUN', 'function'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'function'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'function'),('CCONJ', 'or'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('VERB', 'enable'),('NOUN', 'warning'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('VERB', 'use'),('NOUN', 'warning'),}, function-tradeoff, 11, 0.917
+{('SCONJ', 'if'),('SCONJ', 'if'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('SCONJ', 'if'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('SCONJ', 'if'),('NOUN', 'warning'),}, function-tradeoff, 12, 0.923
+{('SCONJ', 'if'),('ADP', 'by'),('NOUN', 'warning'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('ADP', 'of'),('ADP', 'for'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('ADP', 'of'),('CCONJ', 'and'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('ADP', 'of'),('ADJ', 'such'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('ADP', 'of'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('ADP', 'for'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('ADP', 'in'),('NOUN', 'warning'),}, function-tradeoff, 15, 0.938
+{('SCONJ', 'if'),('NOUN', 'type'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'type'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('NOUN', 'type'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('SCONJ', 'if'),('NOUN', 'type'),}, function-tradeoff, 17, 0.944
+{('SCONJ', 'if'),('NOUN', 'type'),('ADP', 'in'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('CCONJ', 'or'),('ADV', 'when'),}, function-tradeoff, 10, 0.909
+{('SCONJ', 'if'),('CCONJ', 'or'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('NOUN', 'class'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'compiler'),}, function-tradeoff, 10, 0.909
+{('SCONJ', 'if'),('ADJ', 'such'),}, function-tradeoff, 11, 0.917
+{('SCONJ', 'if'),('NOUN', 'warning'),}, function-tradeoff, 36, 0.947
+{('SCONJ', 'if'),('NOUN', 'warning'),('ADP', 'for'),}, function-tradeoff, 7, 0.875
+{('SCONJ', 'if'),('NOUN', 'warning'),('ADP', 'in'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('NOUN', 'warning'),('VERB', 'enable'),}, function-tradeoff, 15, 0.938
+{('SCONJ', 'if'),('NOUN', 'warning'),('ADP', 'by'),}, function-tradeoff, 15, 0.938
+{('SCONJ', 'if'),('NOUN', 'warning'),('VERB', 'use'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('VERB', 'declare'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('VERB', 'declare'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'optimization'),}, function-tradeoff, 13, 0.929
+{('SCONJ', 'if'),('NOUN', 'optimization'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('NOUN', 'level'),}, function-tradeoff, 8, 0.889
+{('SCONJ', 'if'),('NOUN', 'level'),('NOUN', 'level'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'if'),('VERB', 'take'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'threshold'),}, workload-specific, 18, 0.947
+{('NOUN', 'threshold'),('NOUN', 'value'),}, workload-specific, 6, 0.857
+{('NOUN', 'threshold'),('ADP', 'in'),}, workload-specific, 7, 0.875
+{('NOUN', 'threshold'),('ADP', 'of'),}, workload-specific, 8, 0.889
+{('NOUN', 'threshold'),('NUM', 'NUM'),}, workload-specific, 6, 0.857
+{('NOUN', 'threshold'),('NOUN', 'amount'),}, workload-specific, 6, 0.857
+{('ADP', 'for'),('VERB', 'use'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'in'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'in'),('NOUN', 'warning'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('NOUN', 'parameter'),('NOUN', 'address'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'parameter'),('NOUN', 'warning'),}, function-tradeoff, 11, 0.917
+{('ADP', 'for'),('NOUN', 'parameter'),('ADV', 'also'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'level'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('CCONJ', 'and'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('CCONJ', 'and'),('ADP', 'to'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('CCONJ', 'and'),('NOUN', 'warning'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('CCONJ', 'and'),('NOUN', 'type'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('NOUN', 'parameter'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('NOUN', 'optimization'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('VERB', 'set'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'on'),('VERB', 'set'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('VERB', 'set'),('VERB', 'set'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('ADP', 'for'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'on'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'on'),('ADP', 'as'),}, function-tradeoff, 9, 0.900
+{('ADP', 'for'),('ADP', 'on'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('ADP', 'for'),('ADP', 'on'),('SCONJ', 'if'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('NOUN', 'register'),}, limited-side-effect, 7, 0.875
+{('ADP', 'for'),('ADP', 'of'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'of'),('ADP', 'of'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'of'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'of'),('NOUN', 'type'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'of'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'of'),('NOUN', 'object'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'of'),('ADV', 'also'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADV', 'only'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADV', 'only'),('ADP', 'of'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('ADP', 'by'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'for'),('SCONJ', 'if'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'for'),('NOUN', 'warning'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'to'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'to'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('ADP', 'to'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'to'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'to'),('VERB', 'be'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'to'),('NOUN', 'function'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'to'),('NOUN', 'function'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'to'),('NOUN', 'function'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'type'),('NOUN', 'type'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'type'),}, function-tradeoff, 13, 0.867
+{('ADP', 'for'),('CCONJ', 'or'),('NOUN', 'default'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('CCONJ', 'or'),('VERB', 'enable'),}, function-tradeoff, 10, 0.909
+{('ADP', 'for'),('NOUN', 'class'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('VERB', 'be'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'warning'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'warning'),}, function-tradeoff, 21, 0.955
+{('ADP', 'for'),('NOUN', 'warning'),('VERB', 'use'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'warning'),('NOUN', 'parameter'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('NOUN', 'warning'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'error'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('VERB', 'set'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('VERB', 'set'),('ADP', 'as'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'target'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'pointer'),}, function-tradeoff, 13, 0.929
+{('ADP', 'for'),('ADP', 'as'),('ADP', 'for'),}, function-tradeoff, 10, 0.909
+{('ADP', 'for'),('VERB', 'log'),}, function-tradeoff, 9, 0.900
+{('ADP', 'for'),('ADJ', 'high'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('ADP', 'between'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('ADP', 'between'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'integer'),}, function-tradeoff, 6, 0.857
+{('ADP', 'for'),('NOUN', 'call'),('ADP', 'to'),}, function-tradeoff, 8, 0.889
+{('ADP', 'for'),('NOUN', 'call'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('ADP', 'for'),('NOUN', 'call'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'parameter'),('NOUN', 'parameter'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('VERB', 'enable'),('ADP', 'by'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('CCONJ', 'or'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'parameter'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'parameter'),('CCONJ', 'or'),('ADV', 'also'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('NOUN', 'warning'),}, function-tradeoff, 24, 0.923
+{('NOUN', 'parameter'),('NOUN', 'warning'),('VERB', 'enable'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'parameter'),('ADP', 'for'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('ADP', 'in'),('NOUN', 'function'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'parameter'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('NOUN', 'function'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'parameter'),('ADP', 'as'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'optimization'),('VERB', 'enable'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'optimization'),('CCONJ', 'and'),('NOUN', 'parameter'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'optimization'),('CCONJ', 'and'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'optimization'),('ADP', 'by'),('VERB', 'enable'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'optimization'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 6, 0.857
+{('ADP', 'as'),('NOUN', 'function'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'code'),('VERB', 'enable'),('CCONJ', 'and'),}, limited-side-effect, 9, 0.900
+{('NOUN', 'code'),('VERB', 'enable'),('ADP', 'by'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'code'),('ADP', 'at'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'code'),('ADP', 'by'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('VERB', 'have'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('VERB', 'have'),('CCONJ', 'and'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'register'),('NOUN', 'register'),}, limited-side-effect, 9, 0.900
+{('NOUN', 'register'),('CCONJ', 'and'),}, limited-side-effect, 7, 0.875
+{('ADV', 'only'),('NOUN', 'parameter'),('VERB', 'use'),}, function-tradeoff, 6, 0.857
+{('ADV', 'only'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 8, 0.889
+{('ADV', 'only'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADJ', 'such'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('ADJ', 'such'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('ADJ', 'such'),('NOUN', 'example'),}, function-tradeoff, 6, 0.857
+{('ADJ', 'such'),('ADP', 'as'),('ADP', 'for'),}, function-tradeoff, 7, 0.875
+{('VERB', 'include'),('ADV', 'when'),}, function-tradeoff, 8, 0.889
+{('VERB', 'include'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'that'),('NOUN', 'optimization'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'that'),('NOUN', 'optimization'),('NOUN', 'optimization'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('ADP', 'by'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'object'),('NOUN', 'parameter'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('ADP', 'for'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('ADP', 'for'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'object'),('NOUN', 'example'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'object'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('PROPN', 'c++'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('PROPN', 'c++'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('PROPN', 'c++'),('ADP', 'of'),}, function-tradeoff, 9, 0.900
+{('PROPN', 'c++'),}, function-tradeoff, 30, 0.909
+{('PROPN', 'c++'),('ADP', 'for'),}, function-tradeoff, 10, 0.909
+{('PROPN', 'c++'),('NUM', 'NUM'),}, function-tradeoff, 7, 0.875
+{('PROPN', 'c++'),('VERB', 'enable'),}, function-tradeoff, 9, 0.900
+{('PROPN', 'c++'),('ADP', 'by'),}, function-tradeoff, 9, 0.900
+{('PROPN', 'c++'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('PROPN', 'c++'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('PROPN', 'c++'),('ADV', 'when'),}, function-tradeoff, 6, 0.857
+{('PROPN', 'c++'),('VERB', 'be'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'argument'),('ADP', 'to'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'argument'),('ADP', 'of'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'argument'),('ADP', 'of'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'argument'),('CCONJ', 'or'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'argument'),('CCONJ', 'or'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'argument'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'argument'),('VERB', 'enable'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'argument'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'return'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('VERB', 'give'),('SCONJ', 'if'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('NOUN', 'compiler'),}, function-tradeoff, 9, 0.900
+{('CCONJ', 'or'),('SCONJ', 'if'),('VERB', 'enable'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('ADP', 'to'),('NOUN', 'function'),}, function-tradeoff, 9, 0.900
+{('CCONJ', 'or'),('ADP', 'to'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('CCONJ', 'and'),('ADP', 'of'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('CCONJ', 'and'),('NOUN', 'function'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('CCONJ', 'and'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('CCONJ', 'and'),('ADP', 'as'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 12, 0.923
+{('CCONJ', 'or'),('ADP', 'of'),('ADP', 'for'),('ADP', 'for'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('ADP', 'of'),('ADP', 'of'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'of'),('ADP', 'of'),('ADP', 'for'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('ADP', 'of'),('NOUN', 'default'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NOUN', 'parameter'),('VERB', 'enable'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NOUN', 'parameter'),('ADP', 'by'),}, function-tradeoff, 11, 0.917
+{('CCONJ', 'or'),('CCONJ', 'or'),('NOUN', 'function'),}, function-tradeoff, 9, 0.900
+{('CCONJ', 'or'),('ADV', 'only'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('ADP', 'of'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('ADP', 'in'),('NOUN', 'function'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('ADP', 'in'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('ADP', 'in'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('ADP', 'in'),('NOUN', 'statistic'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('NOUN', 'function'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('NOUN', 'function'),}, function-tradeoff, 12, 0.857
+{('CCONJ', 'or'),('ADP', 'in'),('ADP', 'by'),('CCONJ', 'or'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('VERB', 'set'),('VERB', 'set'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NUM', 'NUM'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'with'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('VERB', 'enable'),('ADP', 'by'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'by'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('CCONJ', 'or'),('ADP', 'by'),('VERB', 'enable'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('ADP', 'by'),('ADP', 'by'),}, function-tradeoff, 11, 0.917
+{('CCONJ', 'or'),('ADP', 'by'),('NOUN', 'default'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('NOUN', 'call'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('NOUN', 'function'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NOUN', 'function'),('NOUN', 'function'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NOUN', 'function'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'or'),('NOUN', 'function'),('ADP', 'for'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('VERB', 'include'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('CCONJ', 'either'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('ADP', 'between'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('VERB', 'log'),}, function-tradeoff, 10, 0.909
+{('CCONJ', 'or'),('NOUN', 'pointer'),}, function-tradeoff, 8, 0.889
+{('CCONJ', 'or'),('ADV', 'also'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('NOUN', 'argument'),}, function-tradeoff, 6, 0.857
+{('CCONJ', 'or'),('NOUN', 'attribute'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'class'),('NOUN', 'warning'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'class'),('SCONJ', 'if'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'class'),}, function-tradeoff, 18, 0.857
+{('NOUN', 'class'),('ADP', 'of'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'class'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'class'),('NOUN', 'class'),('SCONJ', 'if'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'compiler'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'warning'),('CCONJ', 'and'),}, function-tradeoff, 17, 0.895
+{('NOUN', 'warning'),}, function-tradeoff, 83, 0.976
+{('NOUN', 'warning'),('ADP', 'for'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'warning'),('ADP', 'for'),}, function-tradeoff, 16, 0.941
+{('NOUN', 'warning'),('ADP', 'in'),}, function-tradeoff, 19, 0.950
+{('NOUN', 'warning'),('ADP', 'in'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'warning'),('ADP', 'in'),('NOUN', 'parameter'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'warning'),('VERB', 'enable'),}, function-tradeoff, 39, 0.975
+{('NOUN', 'warning'),('NOUN', 'parameter'),}, function-tradeoff, 15, 0.882
+{('NOUN', 'warning'),('ADP', 'by'),}, function-tradeoff, 39, 0.975
+{('NOUN', 'warning'),('ADP', 'by'),('NOUN', 'default'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'warning'),('ADP', 'by'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'warning'),('NOUN', 'warning'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'warning'),('NOUN', 'default'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'warning'),('ADV', 'even'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'warning'),('VERB', 'use'),}, function-tradeoff, 14, 0.933
+{('NOUN', 'case'),('NOUN', 'example'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'case'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'expression'),('ADP', 'to'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'expression'),('ADP', 'for'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'expression'),('ADP', 'by'),}, function-tradeoff, 6, 0.857
+{('VERB', 'return'),('CCONJ', 'or'),}, function-tradeoff, 7, 0.875
+{('ADJ', 'non'),('NOUN', 'type'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'security'),('ADP', 'by'),}, limited-side-effect, 6, 0.857
+{('NOUN', 'security'),('ADP', 'in'),}, security-tradeoff, 7, 0.875
+{('ADJ', 'minimum'),('ADP', 'of'),}, workload-specific, 6, 0.857
+{('NOUN', 'pointer'),('ADP', 'for'),('NOUN', 'pointer'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'pointer'),('VERB', 'be'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'pointer'),('NOUN', 'function'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'pointer'),('CCONJ', 'or'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'pointer'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'pointer'),('VERB', 'use'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'pointer'),('NOUN', 'pointer'),}, function-tradeoff, 12, 0.857
+{('NOUN', 'example'),('ADP', 'to'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'example'),('NUM', 'NUM'),('NUM', 'NUM'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'example'),('NUM', 'NUM'),}, function-tradeoff, 10, 0.909
+{('NOUN', 'example'),('ADP', 'by'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'pass'),('VERB', 'enable'),}, limited-side-effect, 8, 0.889
+{('NOUN', 'pass'),('ADP', 'by'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'length'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('ADP', 'between'),('NUM', 'NUM'),('CCONJ', 'and'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'print'),}, function-tradeoff, 11, 0.917
+{('NOUN', 'instance'),}, function-tradeoff, 13, 0.867
+{('VERB', 'build'),('ADP', 'in'),('ADP', 'of'),}, function-tradeoff, 6, 0.857
+{('VERB', 'build'),('ADP', 'in'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('SCONJ', 'because'),('ADP', 'of'),}, function-tradeoff, 11, 0.917
+{('SCONJ', 'because'),('NUM', 'NUM'),}, function-tradeoff, 7, 0.875
+{('ADJ', 'virtual'),('SCONJ', 'if'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'inlining'),}, limited-side-effect, 7, 0.875
+{('ADJ', 'variable'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADJ', 'variable'),('ADP', 'in'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'array'),('NOUN', 'parameter'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'array'),('ADP', 'of'),}, function-tradeoff, 10, 0.909
+{('CCONJ', 'either'),('ADP', 'of'),}, function-tradeoff, 7, 0.875
+{('CCONJ', 'either'),}, function-tradeoff, 12, 0.923
+{('ADJ', 'interprocedural'),}, limited-side-effect, 7, 0.875
+{('NOUN', 'elimination'),}, limited-side-effect, 9, 0.900
+{('PROPN', 'security'),}, security-tradeoff, 12, 0.923
+{('NOUN', 'definition'),}, function-tradeoff, 11, 0.917
+{('ADJ', 'undefined'),}, function-tradeoff, 8, 0.889
+{('NOUN', 'integer'),}, function-tradeoff, 9, 0.900
+{('NOUN', 'tree'),}, limited-side-effect, 11, 0.917
+{('NOUN', 'qualifier'),}, function-tradeoff, 6, 0.857
+{('NOUN', 'command'),}, function-tradeoff, 6, 0.857
+{('VERB', 'involve'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'convert'),('ADP', 'to'),}, function-tradeoff, 9, 0.900
+{('ADJ', 'iso'),}, function-tradeoff, 11, 0.917
+{('ADJ', 'iso'),('CCONJ', 'and'),('VERB', 'enable'),}, function-tradeoff, 6, 0.857
+{('ADJ', 'iso'),('CCONJ', 'and'),}, function-tradeoff, 7, 0.875
+{('ADJ', 'iso'),('VERB', 'enable'),}, function-tradeoff, 7, 0.875
+{('NOUN', 'standard'),}, function-tradeoff, 9, 0.900

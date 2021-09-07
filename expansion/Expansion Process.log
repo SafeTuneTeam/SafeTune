@@ -1,0 +1,137 @@
+Software: all
+
+[2021-09-01 22:26:48] Mining epoch: 1
+	1292 configs to mine, 4962 configs to expand
+
+	[===== Mining stage 1/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 22:26:48 2021 with minsup=3, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 22:27:32 2021, got patterns: [10075, 385, 325, 2825, 1483, 5088, 57718]
+	Updating patterns: 100%|██████████| 77899/77899 [01:25<00:00, 914.46it/s]
+	Filtering...
+	Filtered from 77899 to 2580, distribution: [308, 1, 2, 9, 0, 57, 2206]. With confidence_threshold=0.85
+
+	[===== Mining stage 2/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 22:28:57 2021 with minsup=2, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 22:29:12 2021, got patterns: [0, 1045, 1072, 5960, 3279, 9624, 0]
+	Updating patterns: 100%|██████████| 20980/20980 [00:08<00:00, 2425.29it/s]
+	Filtered from 20980 to 105, distribution: [0, 14, 5, 25, 5, 56, 0]. With confidence_threshold=0.85
+
+	[===== Labeling software =====]
+	Labeling: 100%|██████████| 2162/2162 [00:10<00:00, 460.93it/s]
+	Numbers of those expanded (from label 1 to label 7): [151, 26, 13, 75, 13, 166, 1676]
+	  [Preserved] Expand from 1292 to 3412,
+				  2842 to be expanded.
+
+	[===== Evaluating Results =====]
+				  precision    recall  f1-score   support
+
+			   1       0.98      0.96      0.97       151
+			   2       0.95      0.90      0.92        26
+			   3       0.92      0.78      0.84        13
+			   4       0.98      0.71      0.82        75
+			   5       1.00      0.77      0.87        13
+			   6       0.98      0.95      0.96       166
+			   7       0.98      1.00      0.99      1676
+
+		accuracy                           0.95      2120  <====== At this epoch, this number of data are 
+	weighted avg       0.98      0.95      0.95      2120          expanded, not mater correct or not.
+		 ---------------------------------------------------
+		| Note that the precision & recall here is          |
+		| about the data expanded at this epoch, not all.   |
+		 ---------------------------------------------------
+		 
+
+[2021-09-01 22:29:31] Mining epoch: 2
+3412 configs to mine, 2842 configs to expand
+
+	[===== Mining stage 1/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 22:29:31 2021 with minsup=3, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 22:37:10 2021, got patterns: [43706, 407, 327, 4988, 2024, 32834, 404346]
+	Updating patterns: 100%|██████████| 488632/488632 [24:10<00:00, 336.86it/s]
+	Filtering...
+	Filtered from 488632 to 64460, distribution: [2430, 0, 0, 51, 2, 633, 61344]. With confidence_threshold=0.85
+
+	[===== Mining stage 2/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 23:01:22 2021 with minsup=2, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 23:02:29 2021, got patterns: [10, 1101, 1102, 10619, 4601, 42149, 2203]
+	Updating patterns: 100%|██████████| 61785/61785 [00:40<00:00, 1527.08it/s]
+	Filtering...
+	Filtered from 61785 to 886, distribution: [0, 4, 6, 100, 15, 769, 0]. With confidence_threshold=0.85
+
+	[===== Labeling software =====]
+	Labeling: 100%|██████████| 1037/1037 [02:37<00:00, 18.28it/s]
+	Numbers of those expanded (from label 1 to label 7): [40, 14, 8, 29, 14, 36, 896]
+	  [Preserved] Expand from 3412 to 4449,
+				  1805 to be expanded.
+
+	[===== Evaluating Results =====]
+				  precision    recall  f1-score   support
+
+			   1       0.97      0.72      0.83        40
+			   2       0.00      0.00      0.00        14
+			   3       0.00      0.00      0.00         8
+			   4       0.91      0.34      0.50        29
+			   5       1.00      0.14      0.25        14
+			   6       0.92      0.61      0.73        36
+			   7       0.94      1.00      0.97       896
+
+		accuracy                           0.94      1037  <====== At this epoch, this number of data are 
+	weighted avg       0.93      0.94      0.92      1037          expanded, not mater correct or not.
+		 ---------------------------------------------------
+		| Note that the precision & recall here is          |
+		| about the data expanded at this epoch, not all.   |
+		 ---------------------------------------------------
+
+
+[2021-09-01 23:05:46] Mining epoch: 3
+4449 configs to mine, 1805 configs to expand
+
+	[===== Mining stage 1/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 23:05:46 2021 with minsup=3, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 23:15:52 2021, got patterns: [49676, 408, 327, 5231, 2047, 42253, 499252]
+	Updating patterns: 100%|██████████| 599194/599194 [37:34<00:00, 265.82it/s]
+	Filtering...
+	Filtered from 599194 to 90477, distribution: [3002, 0, 0, 74, 0, 1047, 86354]. With confidence_threshold=0.85
+
+	[===== Mining stage 2/2 =====]
+	PrefixSpan mining starts at Wed Sep  1 23:53:29 2021 with minsup=2, maxlen=10
+	PrefixSpan mining ends at Wed Sep  1 23:55:15 2021, got patterns: [10, 1152, 1114, 11249, 4916, 56605, 12772]
+	Updating patterns: 100%|██████████| 87818/87818 [01:03<00:00, 1381.60it/s]
+	Filtering...
+	Filtered from 87818 to 1186, distribution: [0, 2, 0, 117, 10, 1057, 0]. With confidence_threshold=0.85
+	
+	[===== Labeling software =====]
+	Labeling: 100%|██████████| 318/318 [02:23<00:00, 12.86it/s]
+	Numbers of those expanded (from label 1 to label 7): [16, 4, 0, 27, 17, 27, 240]
+	  [Preserved] Expand from 4449 to 4780,
+				  1474 to be expanded.
+
+	[===== Evaluating Results =====]
+				  precision    recall  f1-score   support
+
+			   1       0.80      0.25      0.38        16
+			   2       0.00      0.00      0.00         4
+			   4       0.67      0.07      0.13        27
+			   5       0.00      0.00      0.00        17
+			   6       0.94      0.56      0.70        27
+			   7       0.77      0.99      0.86       240
+
+		accuracy                           0.77       331  <====== At this epoch, this number of data are 
+	weighted avg       0.72      0.77      0.71       331          expanded, not mater correct or not.
+		 ---------------------------------------------------
+		| Note that the precision & recall here is          |
+		| about the data expanded at this epoch, not all.   |
+		 ---------------------------------------------------
+		 
+		 
+[2021-09-01 23:55:27] Mining epoch: 4
+4780 configs to mine, 1474 configs to expand
+
+	[!] Terminating condition reached! 
+		 29.7% (1474/4962) still not touched.
+		 enlarged by 3.81x (1292 -> 4780) 
+		 saving 73.8% manual effort (3517/4780)
+		 
+	[===== overall result =====]
+		precision: [0.847, 0.808, 0.832, 0.819, 0.910, 0.801, 0.931]
+		accuracy:  [0.393, 0.372, 0.585, 0.552, 0.670, 0.464, 0.702]
