@@ -1,4 +1,8 @@
 # Artifacts of __SafeTune__
+
+<img width="453" alt="logo no shadow" src="https://user-images.githubusercontent.com/57974535/145982047-45d8c4a5-cdad-4a38-a879-6eef33a2ab73.png">
+
+
 This repository includes the artifacts (including data and source code) of the our paper: "_Multi-Intention Aware Configuration Selection for Performance Tuning_"
 
 The repository includes the following artifacts:
